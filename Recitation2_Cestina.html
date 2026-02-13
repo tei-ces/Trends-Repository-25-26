@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Ultimate College Life Web Page</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background: linear-gradient(to right, #f5f1ea, #e8dcc8);
+            margin: 20px;
+            color: #4a3f35;
+        }
+
+        h1 {
+            color: #6b4f3f;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: #7a5c48;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 900px;
+            margin: auto;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        img {
+            display: block;
+            margin: 15px auto;
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #e6d5c3;
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        ul, ol {
+            margin-left: 40px;
+            font-size: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, #e6d5c3, #b89b7b, #e6d5c3);
+            margin: 35px 0;
+        }
+
+        button {
+            display: block;
+            margin: 15px auto;
+            background-color: #b08968;
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #8c6a52;
+            transform: scale(1.05);
+        }
+
+        #message {
+            text-align: center;
+            font-style: italic;
+            color: #6b4f3f;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🌟 My Ultimate College Life Web Page 🌟</h1>
+
+    <h2><b>Full Name:</b> Althea Nicole Cestina</h2>
+
+    <img src="c:\Users\user\OneDrive\Pictures\Screenshots\Screenshot 2026-02-13 081715.png" alt="My Photo">
+
+    <hr>
+
+    <h3>👋 Short Introduction</h3>
+    <p>
+        Hi! I’m <b>Althea</b>, a college student who believes that 
+        <i>coffee, Wi-Fi, and determination</i> can get you through 
+        any challenge. College life may be stressful, but I try to 
+        balance academics, creativity, and rest while enjoying the journey 
+    </p>
+
+    <hr>
+
+    <h3> College Must-Haves</h3>
+    <ul>
+        <li> Laptop</li>
+        <li> Notes & Books</li>
+        <li> Coffee</li>
+        <li> Phone with Internet</li>
+        <li> Earphones</li>
+    </ul>
+
+    <hr>
+
+    <h3> Daily Routine</h3>
+    <ol>
+        <li> Wake up & prepare for the day</li>
+        <li> Eat breakfast</li>
+        <li> Attend classes</li>
+        <li> Do schoolwork & projects</li>
+        <li> Eat dinner</li>
+        <li> Rest and sleep</li>
+    </ol>
+
+    <hr>
+
+    <h3> Hobbies & Interests</h3>
+    <p>
+        During my free time, I enjoy listening to music, watching movies, 
+        reading books, and trying different kinds of food. 
+        These activities help me relax and recharge.
+    </p>
+
+    <hr>
+
+    <h3>📌 Additional Information – Seminars</h3>
+    <p>
+        I have participated in various <b>online seminars</b> focused on 
+        technology, productivity, and student development, which helped 
+        improve my skills and broaden my knowledge.
+    </p>
+
+    <hr>
+
+    <h3>✨ Interactive Button</h3>
+    <p id="message">Click the button to see a message!</p>
+    <button onclick="showMessage()">Click Me 🤎</button>
+
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").innerHTML =
+            "✨ College life is tough, but I’m learning and growing every day ✨";
+        alert("You clicked the button! Keep pushing forward 🎓");
+    }
+</script>
+
+</body>
+</html>
